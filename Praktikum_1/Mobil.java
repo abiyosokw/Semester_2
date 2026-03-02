@@ -32,6 +32,6 @@ public class Mobil {
         System.out.println("Mempunyai nomor plat "+noPlat);
         System.out.println("serta memiliki warna "+warna);
         System.out.println("dan mampu menempuh kecepatan "+kecepatan);
-        System.out.println("dengan waktu tempu "+waktu);
+        System.out.println("dengan waktu tempu "+waktu+" jam");
     }
 }

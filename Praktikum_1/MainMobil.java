@@ -18,7 +18,7 @@ public class MainMobil {
         System.out.println("Masukkan warna mobil :");
         String warna = sc.nextLine();
         m3.setWarna(warna);
-        System.out.println("Masukkan waktu tempuh mobil :");
+        System.out.println("Masukkan waktu tempuh mobil (dalam jam) :");
         double waktu = sc.nextDouble();
         m3.setWaktu(waktu);
         m3.displayMessage();
