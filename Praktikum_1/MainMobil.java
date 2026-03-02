@@ -4,7 +4,27 @@ import java.util.Scanner;
 public class MainMobil { 
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
-
+        Mobil m3 = new Mobil();
+        System.out.println("Masukkan kecepatan mobil :");
+        int kecepatan = sc.nextInt();
+        sc.nextLine();
+        m3.setKecepatan(kecepatan);
+        System.out.println("Masukkan manufaktur mobil :");
+        String manufaktur = sc.nextLine();
+        m3.setManufaktur(manufaktur);
+        System.out.println("Masukkan nomor Plat mobil :");
+        String noPlat = sc.nextLine();
+        m3.setNoPlat(noPlat);
+        System.out.println("Masukkan warna mobil :");
+        String warna = sc.nextLine();
+        m3.setWarna(warna);
+        System.out.println("Masukkan waktu tempuh mobil :");
+        double waktu = sc.nextDouble();
+        m3.setWaktu(waktu);
+        m3.displayMessage();
+        
+        sc.close();
+        
         /* 
         //instan objek bernama m1
         Mobil m1 = new Mobil();
@@ -25,28 +45,11 @@ public class MainMobil {
         System.out.println("================");
 
         //merubah warna dari objek m1
-System.out.println("mobil pada objek m1 di rubah menjadi warna hijau");
+        System.out.println("mobil pada objek m1 di rubah menjadi warna hijau");
         m1.setWarna("Hijau");
         //menampilkan hasil perubahan
         m1.displayMessage();
         */
 
-        Mobil m3 = new Mobil();
-        System.out.println("Masukkan kecepatan mobil :");
-        int kecepatan = sc.nextInt();
-        sc.nextLine();
-        m3.setKecepatan(kecepatan);
-        System.out.println("Masukkan manufaktur mobil :");
-        String manufaktur = sc.nextLine();
-        m3.setManufaktur(manufaktur);
-        System.out.println("Masukkan nomor Plat mobil :");
-        String noPlat = sc.nextLine();
-        m3.setNoPlat(noPlat);
-        System.out.println("Masukkan warna mobil :");
-        String warna = sc.nextLine();
-        m3.setWarna(warna);
-        m3.displayMessage();
-
-        sc.close();
     }
 }
