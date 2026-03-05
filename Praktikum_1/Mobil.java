@@ -36,7 +36,7 @@ public class Mobil {
     }
 
     public double hitungJarak() {
-        return kecepatan * waktu;
+        return (kecepatan * waktu)/1000;
     }
 
     public void displayMessage () {
@@ -45,5 +45,6 @@ public class Mobil {
         System.out.println("serta memiliki warna "+warna);
         System.out.println("dan mampu menempuh kecepatan "+kecepatan+ " m/s");
         System.out.println("dengan waktu tempu "+waktu+" detik");
+        System.out.println("maka jarak yang ditempuh adalah "+hitungJarak()+" km");
     }
 }
