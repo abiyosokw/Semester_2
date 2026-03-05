@@ -35,6 +35,10 @@ public class Mobil {
         return i / 3.6;
     }
 
+    public double hitungJarak() {
+        return kecepatan * waktu;
+    }
+
     public void displayMessage () {
         System.out.println("Mobil anda adalah bermerek "+manufaktur);
         System.out.println("Mempunyai nomor plat "+noPlat);
