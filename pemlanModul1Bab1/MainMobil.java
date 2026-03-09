@@ -1,4 +1,4 @@
-package Semester_2.Praktikum_1;
+package Semester_2.pemlanModul1Bab1;
 import java.util.Scanner;
 
 public class MainMobil { 

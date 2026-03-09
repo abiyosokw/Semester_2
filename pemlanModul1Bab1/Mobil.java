@@ -1,4 +1,4 @@
-package Semester_2.Praktikum_1;
+package Semester_2.pemlanModul1Bab1;
 
 public class Mobil {
     private String noPlat;
