@@ -1,4 +1,4 @@
-package Semester_2.pemlanModul1Bab2;
+package Semester_2.pemlanModul1Bab2.Constructor_Praktikum;
 
 public class Student {
     private String name;
