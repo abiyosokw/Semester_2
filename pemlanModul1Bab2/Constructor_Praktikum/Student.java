@@ -21,6 +21,12 @@ public class Student {
         age = ag;
     }
 
+    public Student(int math, int english, int science){
+        mathGrade = math;
+        englishGrade = english;
+        scienceGrade = science;
+    }
+
     public void setName(String n){ 
     name = n;
     }
@@ -55,6 +61,6 @@ public class Student {
     System.out.println("Siswa dengan nama "+name);
     System.out.println("beramalat di "+address);
     System.out.println("berumur "+age);
-    System.out.println("mempunyai nilai rata rata"+getAverage());
+    System.out.println("mempunyai nilai rata rata "+getAverage());
     }
 }

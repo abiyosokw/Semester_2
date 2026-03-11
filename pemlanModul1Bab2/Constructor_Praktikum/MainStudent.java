@@ -11,6 +11,14 @@ public class MainStudent {
         anna.setEnglish(80);
         anna.displayMessage();
         
+        //siswa dengan nama anna dirubah informasi alamat dan umurnya melalui constructor
+        System.out.println("===================");
+        anna = new Student(100, 91, 89);
+        anna.setName("Anna");
+        anna.setAddress("Surabaya");
+        anna.setAge(21);
+        anna.displayMessage();  
+        
          //menggunakan constructor lain
         System.out.println("===================");
         Student chris = new Student("Chris", "Kediri", 21);
@@ -18,11 +26,6 @@ public class MainStudent {
         chris.setScience(60);
         chris.setEnglish(90);
         chris.displayMessage();
-    
-        //siswa dengan nama anna dirubah informasi alamat dan umurnya melalui constructor
-        System.out.println("===================");
-        anna = new Student("anna", "Batu", 18);
-        anna.displayMessage();  
 
         //siswa denagan nama chris dirubah informasi alamat dan umurnya melalui method
         System.out.println("===================");
