@@ -8,23 +8,27 @@ public class Student {
     private double englishGrade;
     private double scienceGrade;
     private double average;
+    private static int counter = 0;
 
     public Student(){
     name = "";
     address = "";
     age = 0;
+    counter++;
     }
 
     public Student(String n, String a, int ag){
         name = n;
         address = a;
         age = ag;
+        counter++;
     }
 
     public Student(int math, int english, int science){
         mathGrade = math;
         englishGrade = english;
         scienceGrade = science;
+        counter++;
     }
 
     public void setName(String n){ 
@@ -67,5 +71,9 @@ public class Student {
     System.out.println("berumur "+age);
     System.out.println("mempunyai nilai rata rata "+getAverage());
     System.out.println("Status akhir siswa " + (statusAkhir() ? "Lulus" : "Remidi"));
+    }
+
+    public static void jumlahObjek() {
+    System.out.println("Jumlah objek yang telah dibuat: " + counter);
     }
 }

@@ -26,6 +26,10 @@ public class MainStudent {
             daftarSiswa[i].setScience(science);
         }
 
+        System.out.println("\n================================");
+        Student.jumlahObjek();
+        System.out.println("================================");
+
         System.out.println("\nData Siswa:");
         for (int i = 0; i < daftarSiswa.length; i++) {
             daftarSiswa[i].displayMessage();
