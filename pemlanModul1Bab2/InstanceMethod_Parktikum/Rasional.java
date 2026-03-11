@@ -22,15 +22,17 @@ public class Rasional{
     public void Sederhana(){
         int temp, A, B;
         if (penyebut ==0){
-        return;
+            return;
         }
         A = (pembilang<penyebut) ? penyebut:pembilang;
         B = (pembilang<penyebut) ? pembilang:penyebut;
+
         while (B != 0){
         temp= A % B;
         A = B;
         B = temp;
         }
+        
         pembilang /=A;
         penyebut /=A; 
     }
@@ -46,6 +48,21 @@ public class Rasional{
     );
     }
 
+    // operator <
+    public boolean lessThan(Rasional A){
+        return (pembilang * A.penyebut < penyebut * A.pembilang);
+    }
+
+    // operator <=
+    public boolean lessOrEqual(Rasional A){
+        return (pembilang * A.penyebut <= penyebut * A.pembilang);
+    }
+
+    // operator >=
+    public boolean moreOrEqual(Rasional A){
+        return (pembilang * A.penyebut >= penyebut * A.pembilang);
+    }
+
     //operator Unary- ---> A = -A
     public void negasi(){
     pembilang = - pembilang;
@@ -55,7 +72,7 @@ public class Rasional{
     public void unaryPlus(Rasional A){
     pembilang = pembilang * A.penyebut + penyebut *
     A.pembilang;
-    penyebut *=A.penyebut;
+    penyebut *= A.penyebut;
     }
     
     public void cetak(){
