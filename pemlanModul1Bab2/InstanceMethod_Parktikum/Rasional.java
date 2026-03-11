@@ -27,7 +27,7 @@ public class Rasional{
         A = (pembilang<penyebut) ? penyebut:pembilang;
         B = (pembilang<penyebut) ? pembilang:penyebut;
 
-        while (B != 0){
+        for (; B != 0; ){
         temp= A % B;
         A = B;
         B = temp;
