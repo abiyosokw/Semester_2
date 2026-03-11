@@ -57,10 +57,15 @@ public class Student {
     return result;
     }
 
+    private boolean statusAkhir() {
+        return getAverage() >= 61; 
+    }
+
     public void displayMessage(){
     System.out.println("Siswa dengan nama "+name);
     System.out.println("beramalat di "+address);
     System.out.println("berumur "+age);
     System.out.println("mempunyai nilai rata rata "+getAverage());
+    System.out.println("Status akhir siswa " + (statusAkhir() ? "Lulus" : "Remidi"));
     }
 }

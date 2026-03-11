@@ -11,26 +11,26 @@ public class MainStudent {
         anna.setEnglish(80);
         anna.displayMessage();
         
-        //siswa dengan nama anna dirubah informasi alamat dan umurnya melalui constructor
-        System.out.println("===================");
-        anna = new Student(100, 91, 89);
-        anna.setName("Anna");
-        anna.setAddress("Surabaya");
-        anna.setAge(21);
-        anna.displayMessage();  
+        // //siswa dengan nama anna dirubah informasi alamat dan umurnya melalui constructor
+        // System.out.println("===================");
+        // anna = new Student(100, 91, 89);
+        // anna.setName("Anna");
+        // anna.setAddress("Surabaya");
+        // anna.setAge(21);
+        // anna.displayMessage();  
         
          //menggunakan constructor lain
         System.out.println("===================");
         Student chris = new Student("Chris", "Kediri", 21);
-        chris.setMath(70);
+        chris.setMath(50);
         chris.setScience(60);
-        chris.setEnglish(90);
+        chris.setEnglish(50);
         chris.displayMessage();
 
-        //siswa denagan nama chris dirubah informasi alamat dan umurnya melalui method
-        System.out.println("===================");
-        chris.setAddress("Surabaya");
-        chris.setAge(22);
-        chris.displayMessage();
+        // //siswa denagan nama chris dirubah informasi alamat dan umurnya melalui method
+        // System.out.println("===================");
+        // chris.setAddress("Surabaya");
+        // chris.setAge(22);
+        // chris.displayMessage();
     }
 }
