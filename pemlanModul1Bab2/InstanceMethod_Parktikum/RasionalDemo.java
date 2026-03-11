@@ -41,6 +41,18 @@ public class RasionalDemo{
     R1.unaryPlus(R2);
     System.out.print("Nilai dari 'R1 += R2' : ");
     R1.cetak();
+    
+    R1.unaryMinus(R2);
+    System.out.print("Nilai dari 'R1 -= R2' : ");
+    R1.cetak();
+
+    R1.unaryKali(R2);
+    System.out.print("Nilai dari 'R1 *= R2' : ");
+    R1.cetak();
+    
+    R1.unaryBagi(R2);
+    System.out.print("Nilai dari 'R1 /= R2' : ");
+    R1.cetak();
     System.out.println();
     }
 }

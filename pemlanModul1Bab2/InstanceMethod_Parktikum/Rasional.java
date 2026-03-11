@@ -74,6 +74,28 @@ public class Rasional{
     A.pembilang;
     penyebut *= A.penyebut;
     }
+
+    // operator -= (pengurangan)
+    public void unaryMinus(Rasional A){
+    pembilang = pembilang * A.penyebut - penyebut * A.pembilang;
+    penyebut *= A.penyebut;
+}
+
+    // operator *= (perkalian)
+    public void unaryKali(Rasional A){
+    pembilang = pembilang * A.pembilang;
+    penyebut = penyebut * A.penyebut;
+}
+
+    // operator /= (pembagian)
+    public void unaryBagi(Rasional A){
+    if (A.pembilang == 0){
+        System.out.println("Error: Tidak dapat membagi dengan nol!");
+        return;
+    }
+    pembilang = pembilang * A.penyebut;
+    penyebut = penyebut * A.pembilang;
+}
     
     public void cetak(){
     System.out.println(pembilang + "/" + penyebut);
