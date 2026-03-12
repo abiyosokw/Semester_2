@@ -5,8 +5,9 @@ public class Lingkaran {
     public Lingkaran(int alas){
         this.alas = alas;
     }
-    public Lingkaran(int tinggi){
-        this.tinggi = tinggi;
+    public Lingkaran(String alas, String tinggi){
+        this.alas = Integer.parseInt(alas);
+        this.tinggi = Integer.parseInt(tinggi);
     }
     public Lingkaran(int alas, int tinggi){
         this.alas = alas;

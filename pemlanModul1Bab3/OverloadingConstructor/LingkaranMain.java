@@ -7,5 +7,7 @@ public class LingkaranMain{
         l.displayMessage();
         Lingkaran l2 = new Lingkaran(4, 10);
         l2.displayMessage();
+        Lingkaran Lstring = new Lingkaran("12", "10");
+        Lstring.displayMessage();
     }
 }
