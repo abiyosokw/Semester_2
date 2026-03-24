@@ -5,6 +5,14 @@ public class MainAritmatika {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("masukkan nilai 1 : ");
+        String nil0 = in.nextLine();
+        System.out.print("masukkan nilai 2 : ");
+        String nil01 = in.nextLine();
+
+        Aritmatika obj = new Aritmatika();
+        System.out.println("nilai pembagian adalah: "+obj.hitungPembagian(nil0, nil01));
+
+        System.out.print("masukkan nilai 1 : ");
         int nil1 = in.nextInt();
         System.out.print("masukkan nilai 2 : ");
         int nil2 = in.nextInt();
@@ -26,7 +34,7 @@ public class MainAritmatika {
         //memanggil method NONstatic harus melalui objek
         Aritmatika a = new Aritmatika();
         a.hitungPenjumlahan(value1, value2);
-        
+
         in.close();
     }
 }
