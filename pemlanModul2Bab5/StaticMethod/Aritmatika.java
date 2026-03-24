@@ -4,6 +4,7 @@ public class Aritmatika {
     public void hitungPenjumlahan(int a,int b){
         int nilai = a+b;
         System.out.println("nilai penjumlahan adalah: "+nilai);
+        hitungPerkalian(a, b);
     }
     
     public static void hitungPerkalian(int a, int b){
