@@ -1,4 +1,4 @@
-package Semester_2.pemlanModul2Bab4;
+package pemlanModul2Bab4;
 
 import java.util.Scanner;
 

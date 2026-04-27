@@ -1,4 +1,4 @@
-package Semester_2.pemlanKuis1.hard;
+package pemlanKuis1.hard;
 import java.util.Scanner;
 
 public class moo {

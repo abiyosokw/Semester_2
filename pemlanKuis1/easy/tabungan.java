@@ -1,4 +1,4 @@
-package Semester_2.pemlanKuis1.easy;
+package pemlanKuis1.easy;
 
 import java.util.HashMap;
 import java.util.Scanner;

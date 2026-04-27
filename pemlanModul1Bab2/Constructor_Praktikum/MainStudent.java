@@ -1,4 +1,4 @@
-package Semester_2.pemlanModul1Bab2.Constructor_Praktikum;
+package pemlanModul1Bab2.Constructor_Praktikum;
 import java.util.Scanner;
 
 public class MainStudent {

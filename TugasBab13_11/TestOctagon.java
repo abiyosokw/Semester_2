@@ -1,4 +1,4 @@
-package Semester_2.TugasBab13_11;
+package TugasBab13_11;
 
 // File: TestOctagon.java
 public class TestOctagon {

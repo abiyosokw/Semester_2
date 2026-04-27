@@ -1,4 +1,4 @@
-package Semester_2.Inheritance;
+package Inheritance;
 import java.util.Scanner;
 
 public class MainGeometricObject {

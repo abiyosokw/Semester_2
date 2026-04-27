@@ -1,4 +1,4 @@
-package Semester_2.TugasBab13_11;
+package TugasBab13_11;
 
 // File: GeometricObject.java
 public abstract class GeometricObject {

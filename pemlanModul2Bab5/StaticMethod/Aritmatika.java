@@ -1,4 +1,4 @@
-package Semester_2.pemlanModul2Bab5.StaticMethod;
+package pemlanModul2Bab5.StaticMethod;
 
 public class Aritmatika {
     public void hitungPenjumlahan(int a,int b){

@@ -1,4 +1,4 @@
-package Semester_2.pemlanModul2Bab4;
+package pemlanModul2Bab4;
 
 public class DataPelanggan {
     private Pelanggan[] daftarPelanggan;

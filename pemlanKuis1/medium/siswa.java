@@ -1,4 +1,4 @@
-package Semester_2.pemlanKuis1.medium;
+package pemlanKuis1.medium;
 
 import java.util.HashMap;
 import java.util.Scanner;

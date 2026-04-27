@@ -1,4 +1,4 @@
-package Semester_2.pemlanModul2Bab5.KonstantaFinal;
+package pemlanModul2Bab5.KonstantaFinal;
 
 public class Vehicle1{
     private double load;

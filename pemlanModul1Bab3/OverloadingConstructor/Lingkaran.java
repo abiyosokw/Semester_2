@@ -1,4 +1,4 @@
-package Semester_2.pemlanModul1Bab3.OverloadingConstructor;
+package pemlanModul1Bab3.OverloadingConstructor;
 
 public class Lingkaran {
     int alas, tinggi;

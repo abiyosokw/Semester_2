@@ -1,4 +1,4 @@
-package Semester_2.Inheritance;
+package Inheritance;
 
 public class Triangle extends GeometricObject {
     private double side1 = 1.0;

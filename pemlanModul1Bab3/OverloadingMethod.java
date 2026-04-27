@@ -1,4 +1,4 @@
-package Semester_2.pemlanModul1Bab3;
+package pemlanModul1Bab3;
 import java.util.Scanner;
 
 public class OverloadingMethod {

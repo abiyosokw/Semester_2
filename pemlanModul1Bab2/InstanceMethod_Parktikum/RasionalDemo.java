@@ -1,4 +1,4 @@
-package Semester_2.pemlanModul1Bab2.InstanceMethod_Parktikum;
+package pemlanModul1Bab2.InstanceMethod_Parktikum;
 
 public class RasionalDemo{
     public static void main(String[] args){

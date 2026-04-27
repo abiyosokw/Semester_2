@@ -1,4 +1,4 @@
-package Semester_2.pemlanModul1Bab2.InstanceMethod_Parktikum;
+package pemlanModul1Bab2.InstanceMethod_Parktikum;
 
 public class Rasional{
     private int pembilang, penyebut;

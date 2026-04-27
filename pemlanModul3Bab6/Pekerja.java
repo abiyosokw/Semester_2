@@ -1,4 +1,4 @@
-package Semester_2.pemlanModul3Bab6;
+package pemlanModul3Bab6;
 import java.time.LocalDate;
 import java.time.Period;
 

@@ -1,4 +1,4 @@
-package Semester_2.pemlanModul2Bab5.StaticMethod;
+package pemlanModul2Bab5.StaticMethod;
 import java.util.Scanner;
 
 public class MainAritmatika {

@@ -1,4 +1,4 @@
-package Semester_2.Inheritance;
+package Inheritance;
 
 public class GeometricObject {
     private String color = "white";
