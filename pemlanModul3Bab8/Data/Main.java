@@ -26,12 +26,12 @@ class Manusia implements MakhlukHidup, Identitas {
 
 public class Main {
     public static void main(String[] args) {
-        //(Soal 6) Membuat objek Manusia dengan nama "Agus" dan umur 20, lalu menampilkan nama dan umurnya
-        Manusia me = new Manusia("Agus", 20);
+        // //(Soal 6) Membuat objek Manusia dengan nama "Agus" dan umur 20, lalu menampilkan nama dan umurnya
+        Manusia me = new Manusia("Rubin", 34);
         me.tampilkanNama();
         me.tampilkanUmur();
 
-        // (Soal 7) Membuat objek Manusia dengan inputan nama dan umur
+        //(Soal 7) Membuat objek Manusia dengan inputan nama dan umur
         Scanner input = new Scanner(System.in);
     
         System.out.print("Masukkan Nama: ");
@@ -46,7 +46,7 @@ public class Main {
 
         input.close();
 
-        // (Soal 8) Membuat objek Hewan dan memanggil method makan, bersuara, dan berjalan
+        // // (Soal 8) Membuat objek Hewan dan memanggil method makan, bersuara, dan berjalan
         Hewan kucing = new Hewan();
     
         System.out.println("--- Aksi Hewan ---");

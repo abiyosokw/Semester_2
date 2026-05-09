@@ -5,12 +5,12 @@ public class Main {
     public static void main(String[] args) {
         // Contoh data belanja
         Invoice[] listBelanja = {
-            new Invoice("Sabun", 2, 5000),
-            new Invoice("Beras 5kg", 1, 75000)
+            new Invoice("Garam", 1, 6500),
+            new Invoice("Gula 1 kg", 1, 95000)
         };
 
         // Instansiasi Employee
-        Employee emp = new Employee(101, "Budi", 5000000, listBelanja);
+        Employee emp = new Employee(202, "Joshua", 6700000, listBelanja);
         
         // Tampilkan hasil secara polimorfis
         emp.tampilkanInfo();
