@@ -6,13 +6,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class RegistrasiMahasiswa extends JFrame {
-    // Komponen Input
     private JTextField txtNama, txtTglLahir, txtNoDaftar, txtNoTelp, txtEmail;
     private JTextArea txtAlamat;
     private JButton btnSubmit;
 
     public RegistrasiMahasiswa() {
-        // Pengaturan Frame Utama
         setTitle("Form Daftar Ulang Mahasiswa Baru");
         setSize(450, 500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -24,7 +22,6 @@ public class RegistrasiMahasiswa extends JFrame {
         gbc.insets = new Insets(10, 10, 10, 10);
         gbc.fill = GridBagConstraints.HORIZONTAL;
 
-        // Inisialisasi Komponen
         txtNama = new JTextField(20);
         txtTglLahir = new JTextField(20);
         txtNoDaftar = new JTextField(20);
@@ -34,7 +31,6 @@ public class RegistrasiMahasiswa extends JFrame {
         txtEmail = new JTextField(20);
         btnSubmit = new JButton("Submit");
 
-        // Menambahkan Komponen ke Frame
         addComponent(0, "Nama Lengkap:", txtNama, gbc);
         addComponent(1, "Tanggal Lahir:", txtTglLahir, gbc);
         addComponent(2, "Nomor Pendaftaran:", txtNoDaftar, gbc);
@@ -47,12 +43,10 @@ public class RegistrasiMahasiswa extends JFrame {
 
         addComponent(5, "E-mail:", txtEmail, gbc);
 
-        // Tombol Submit
         gbc.gridy = 6; gbc.gridx = 1;
         gbc.anchor = GridBagConstraints.EAST;
         add(btnSubmit, gbc);
 
-        // Logika Tombol
         btnSubmit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -70,7 +64,6 @@ public class RegistrasiMahasiswa extends JFrame {
     }
 
     private void prosesSubmit() {
-        // 1. Validasi: Semua kolom harus terisi
         if (txtNama.getText().isEmpty() || txtTglLahir.getText().isEmpty() || 
             txtNoDaftar.getText().isEmpty() || txtNoTelp.getText().isEmpty() || 
             txtAlamat.getText().isEmpty() || txtEmail.getText().isEmpty()) {
@@ -79,13 +72,11 @@ public class RegistrasiMahasiswa extends JFrame {
             return;
         }
 
-        // 2. Panel Konfirmasi
         int response = JOptionPane.showConfirmDialog(this, 
             "Apakah anda yakin data yang Anda isi sudah benar?", 
             "Konfirmasi", JOptionPane.OK_CANCEL_OPTION);
 
         if (response == JOptionPane.OK_OPTION) {
-            // 3. Tampilkan Jendela Baru (Data Mahasiswa)
             tampilkanData();
         }
     }
@@ -114,7 +105,7 @@ public class RegistrasiMahasiswa extends JFrame {
         areaData.setText(hasil);
         frameData.add(new JScrollPane(areaData));
         frameData.setVisible(true);
-        this.dispose(); // Menutup form input
+        this.dispose(); 
     }
 
     public static void main(String[] args) {
