@@ -3,37 +3,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "HapusDirektori",
+            "name": "Exercise15_01",
             "request": "launch",
-            "mainClass": "pemlanModulBab10.HapusDirektori",
-            "projectName": "Semester_2_5a8774ea"
-        },
-        {
-            "type": "java",
-            "name": "DaftarFile",
-            "request": "launch",
-            "mainClass": "pemlanModulBab10.DaftarFile",
-            "projectName": "Semester_2_5a8774ea"
-        },
-        {
-            "type": "java",
-            "name": "CekUkuranFile",
-            "request": "launch",
-            "mainClass": "pemlanModulBab10.CekUkuranFile",
-            "projectName": "Semester_2_5a8774ea"
-        },
-        {
-            "type": "java",
-            "name": "TulisFile1",
-            "request": "launch",
-            "mainClass": "pemlanModulBab10.TulisFile1",
-            "projectName": "Semester_2_5a8774ea"
-        },
-        {
-            "type": "java",
-            "name": "Exercise14_11",
-            "request": "launch",
-            "mainClass": "TugasBab14_11.Exercise14_11",
+            "mainClass": "TugasBab15_1.Exercise15_01",
+            "projectName": "Semester_2_5a8774ea",
             "vmArgs": "--module-path \"C:\\java\\openjfx-26.0.1_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
