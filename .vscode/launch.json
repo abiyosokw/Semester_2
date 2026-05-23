@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ManajemenTimFutsal",
+            "request": "launch",
+            "mainClass": "ManajemenTimFutsal",
+            "projectName": "Semester_2_5a8774ea"
+        },
+        {
+            "type": "java",
             "name": "Exercise15_01",
             "request": "launch",
             "mainClass": "TugasBab15_1.Exercise15_01",
